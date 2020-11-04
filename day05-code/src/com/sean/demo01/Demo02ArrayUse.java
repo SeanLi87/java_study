@@ -20,5 +20,6 @@ public class Demo02ArrayUse {
         System.out.println(array[0]);//第一个元素不会改变
         System.out.println(array[1]);//第二个元素已经改变
         System.out.println(array[2]);//第三个元素已经改变
+
     }
 }

@@ -12,7 +12,7 @@ import java.util.ArrayList;
  * public E remove(int index) {}：删除集合当中的元素，参数是索引值，返回删除的元素
  * public int size() {}：获取集合的长度
  * */
-public class Demo03ArrayMethod {
+public class Demo03ArrayListMethod {
     public static void main(String[] args) {
         ArrayList<String> list = new ArrayList<>();
         boolean isSuccess = list.add("小王");
@@ -33,6 +33,18 @@ public class Demo03ArrayMethod {
         //获取ArrayList的长度
         int size = list.size();
         System.out.println("集合的长度：" + size);
+
+        //另一种重载的remove方法，直接删除元素，返回true of false
+        boolean isDelete = list.remove("小王");
+
+        boolean isEmpty = list.isEmpty();
+
+
+        //清空集合
+        list.clear();
+        System.out.println(list);
+
+
 
     }
 }

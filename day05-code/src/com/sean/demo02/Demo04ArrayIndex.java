@@ -7,6 +7,6 @@ public class Demo04ArrayIndex {
         System.out.println(arrayA[0]);
         System.out.println(arrayA[1]);
         System.out.println(arrayA[2]);
-        System.out.println(arrayA[3]);
+        System.out.println(arrayA[3]);//索引越界错误
     }
 }

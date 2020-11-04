@@ -4,7 +4,7 @@ package com.sean.demo02;
  * 快速遍历数组array.fori*/
 public class Demo10ArrayReverse {
     public static void main(String[] args) {
-        int[] arrayA = new int[]{};//数组静态初始化的标准写法
+        int[] arrayA = new int[]{1,2,3,4,5};//数组静态初始化的标准写法
         /*
          * 梳理算法实现
          * 1.将前者（min索引,从左侧0开始）元素的值赋值给temp变量

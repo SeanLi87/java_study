@@ -25,7 +25,6 @@ public class Person {
         else {
             System.out.println("错误的年龄数据");
         }
-//        age = num;
     }
 
     public int getAge() {

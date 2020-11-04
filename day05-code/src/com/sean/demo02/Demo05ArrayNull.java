@@ -8,11 +8,11 @@ package com.sean.demo02;
  * 解决：补上new*/
 public class Demo05ArrayNull {
     public static void main(String[] args) {
-        int[] arrayA = null;//数组初始化方法拆成两步中得第一步
+        int[] arrayA = null;//数组初始化方法拆成两步中得第一步或者int[] arrayA;
 
-        arrayA = new int[3];//动态初始化方法
-//        arrayA = new int[]{1,2,3};//静态初始化方法，必须使用标准写法
-//        arrayA = {1,2,3};//错误写法！！！静态初始化方法在两步初始化时不能够使用简写
+        arrayA = new int[3];//使用动态初始化方法第二步
+//        arrayA = new int[]{1,2,3};//也可以使用静态初始化方法中的第二步
+//        arrayA = {1,2,3};//错误写法！！！初始化方法在第二步时不必须要使用new
         System.out.println(arrayA[0]);
     }
 }

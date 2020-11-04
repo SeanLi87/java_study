@@ -9,7 +9,8 @@ package com.sean.demo02;
 * 5.return后面的数据类型必须和方法定义的返回值类型相同
 * 6.对于一个void的方法，不能些return后面的返回值，可以只写return，代表程序结束
 * 7.对于void方法最后一个return可以不写
-* 8.一个方法中可以有多个return语句，但是需要保证只有一个会被执行*/
+* 8.一个方法中可以有多个return语句，但是需要保证只有一个会被执行
+* */
 
 public class Demo08MethodNotice {
     public static void main(String[] args) {

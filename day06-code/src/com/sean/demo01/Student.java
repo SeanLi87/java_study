@@ -24,4 +24,8 @@ public class Student {
     public void study() {
         System.out.println("学习");
     }
+
+    {
+        System.out.println("这是类的静态代码块");
+    }
 }

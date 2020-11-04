@@ -21,7 +21,7 @@ public class Demo01PrintArray {
         }
         System.out.println("====================");
         //以下是面向对象的写法，所有处理只要找到对应的类和方法即可
-        System.out.println(Arrays.toString(arrayA));
+        System.out.println(Arrays.toString(arrayA));//[1, 2, 3, 4]
 
     }
 }

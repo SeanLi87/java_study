@@ -18,7 +18,7 @@ import java.util.ArrayList;
 * 自动装箱：基本类型-->包装类型，比如add()方法的参数直接使用int类型时，ArrayList能够自动将其转换成包装类型Integer
 * 自动拆箱：包装类型-->基本类型，比如get()方法的返回值可以直接使用int类型进行接收
 * */
-public class Demo05ArrayBasic {
+public class Demo05ArrayListBasic {
     public static void main(String[] args) {
         ArrayList<Integer> list = new ArrayList<>();
         list.add(100);
